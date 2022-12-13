@@ -523,6 +523,7 @@ contour(
   xlab = "Total Basal Area",
   ylab = "Percent Slope",
   main = "Additive")
+
 contour(
   x = ba.tot,
   y = slope,

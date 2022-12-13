@@ -1,0 +1,27 @@
+{
+    "id": "5B283C5B",
+    "path": "~/Documents/environmental_data/docs/index.Rmd",
+    "project_path": "docs/index.Rmd",
+    "type": "r_markdown",
+    "hash": "3660665817",
+    "contents": "",
+    "dirty": false,
+    "created": 1670950285101.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "11,50",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1670950401,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1670950401919,
+    "read_only": false,
+    "read_only_alternatives": []
+}

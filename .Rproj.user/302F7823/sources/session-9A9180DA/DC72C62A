@@ -1,27 +1,27 @@
 {
-    "id": "F99534A5",
-    "path": "~/Documents/environmental_data/lab/lab_11.R",
-    "project_path": "lab/lab_11.R",
+    "id": "DC72C62A",
+    "path": "~/Documents/environmental_data/lab/lab_12.R",
+    "project_path": "lab/lab_12.R",
     "type": "r_source",
     "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1670637709152.0,
+    "created": 1670630333656.0,
     "source_on_save": false,
-    "relative_order": 3,
+    "relative_order": 1,
     "properties": {
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "64,0",
-        "scrollLine": "59"
+        "cursorPosition": "525,0",
+        "scrollLine": "511"
     },
     "folds": "",
-    "lastKnownWriteTime": 1670377384,
+    "lastKnownWriteTime": 1670904937,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1670377384,
+    "last_content_update": 1670904937331,
     "read_only": false,
     "read_only_alternatives": []
 }
