@@ -1,0 +1,512 @@
+paste0("Sum of elements with value 3: ", sum(vec_1 == 3))
+paste0("Sum of elements with value 3: ", sum(vec_1 == 3))
+n = 10
+vec_1 = sample(12, n, replace = TRUE)
+paste0("Sum of elements with value 3: ", sum(vec_1 == 3))
+paste0("Sum of elements with value 3: ", sum(vec_1 == 3))
+n = 10
+vec_1 = sample(12, n, replace = TRUE)
+paste0("Sum of elements with value 3: ", sum(vec_1 == 3))
+n = 10
+vec_1 = sample(12, n, replace = TRUE)
+paste0("Sum of elements with value 3: ", sum(vec_1 == 3))
+n = 10
+vec_1 = sample(12, n, replace = TRUE)
+paste0("Sum of elements with value 3: ", sum(vec_1 == 3))
+n = 10
+vec_1 = sample(12, n, replace = TRUE)
+paste0("Sum of elements with value 3: ", sum(vec_1 == 3))
+n = 10
+vec_1 = sample(12, n, replace = TRUE)
+paste0("Sum of elements with value 3: ", sum(vec_1 == 3))
+print(i)
+for (i in 1:10)
+{
+print(i)
+}
+{
+print(paste0("This is a loop iteration: 1", n))
+}
+for (i in 1:10)
+{
+print(paste0("This is a loop iteration: 1", n))
+}
+n = 5
+print(n)
+{
+print(paste0("This is a loop iteration: ", n))
+}
+{
+print(paste0("This is a loop iteration: ", i))
+}
+for (i in 1:10)
+{
+print(paste0("This is a loop iteration: ", i))
+}
+n = 5
+for(i in n)
+{
+print(paste0("This is a loop iteration: ", i))
+}
+print(paste0("This is a loop iteration: ", n))
+print("This is a loop iteration: ", n))
+for(i in n)
+{
+print(paste0("This is a loop iteration: ", n))
+}
+{
+print(paste0("This is a loop iteration: ", n))
+}
+for(i in 1:n)
+{
+print(paste0("This is a loop iteration: ", i))
+}
+n= 17
+vec_1 <- sample(10, n)
+n= c(9:17)
+vec_1 <- sample(10, n)
+n= 17
+vec_1 <- sample(10, n, replace = TRUE)
+for(i in 1:n)
+print(paste0("The element of vec_1 at index, i, "is: " vec_1[[i]]))
+{
+print(paste0("The element of vec_1 at index", i, "is: " vec_1[[i]]))
+print(paste0("The element of vec_1 at index", i, "is: ", vec_1[[i]]))
+n= 17
+vec_1 <- sample(10, n, replace = TRUE)
+{
+print(paste0("The element of vec_1 at index", i, "is: ", vec_1[[i]]))
+}
+n= 17
+vec_1 <- sample(10, n, replace = TRUE)
+for(i in 1:n)
+{
+print(paste0("The element of vec_1 at index", i, "is: ", vec_1[[i]]))
+}
+n= 17
+vec_1 <- sample(10, n, replace = TRUE)
+for(i in 1:n)
+{
+print(paste0("The element of vec_1 at index", i, " is: ", vec_1[[i]]))
+}
+n= 17
+vec_1 <- sample(10, n, replace = TRUE)
+for(i in 1:n)
+{
+print(paste0("The element of vec_1 at index ", i, " is: ", vec_1[[i]]))
+}
+create_and_print_vec = function(n = 4, min = 1, max = 10)
+vec_3 <- sample(min:max, n, replace= TRUE)
+for(i in 1:n)
+{
+print(paste0("The element at index", i, "is", vec_3[[i]]))
+}
+create_and_print_vec = function(n = 4, min = 1, max = 10)
+vec_3 <- sample(1:10, n, replace= TRUE)
+for(i in 1:n)
+{
+print(paste0("The element at index", i, "is", vec_3[[i]]))
+}
+create_and_print_vec = function(n = 4, min = 1, max = 10)
+vec_3 <- sample(min:max, n, replace= TRUE)
+for(i in 1:n)
+{
+print(paste0("The element at index", i, "is", vec_3[[i]]))
+}
+create_and_print_vec = function(n = 4, min = 1, max = 10)
+{
+vec_3 <- sample(min:max, n, replace= TRUE)
+for(i in 1:n)
+{
+print(paste0("The element at index", i, "is", vec_3[[i]]))
+}}
+create_and_print_vec = function(n = 4, min = 1, max = 10)
+{
+vec_3 <- sample(min:max, n, replace= TRUE)
+for(i in 1:n)
+{
+print(paste0("The element at index", i, "is", vec_3[[i]]))
+}}
+create_and_print_vec(5)
+create_and_print_vec = function(n = 4, min = 1, max = 10)
+{
+vec_3 <- sample(min:max, n, replace= TRUE)
+for(i in 1:n)
+{
+print(paste0("The element at index ", i, " is ", vec_3[[i]]))
+}}
+create_and_print_vec(5)
+n= 12345
+vec_1 = sample(12, n, replace = TRUE)
+n= 12345
+vec_1 = sample(12, n, replace = TRUE)
+vec_1
+n= 12
+vec_1 = sample(12, n, replace = TRUE)
+vec_1
+n= 125
+vec_1 = sample(12, n, replace = TRUE)
+vec_1
+create_and_print_vec = function(n = 4, min = 1, max = 10)
+{
+vec_3 <- sample(min:max, n, replace= TRUE)
+for(i in 1:n)
+{
+print(paste0("The element at index ", i, " is ", vec_3[[i]]))
+}}
+create_and_print_vec(5)
+create_and_print_vec = function(n = 4, min = 1, max = 10)
+{
+vec_3 <- sample(min:max, n, replace= TRUE)
+for(i in 1:n)
+{
+print(paste0("The element at index ", i, " is ", vec_3[[i]]))
+}}
+create_and_print_vec
+create_and_print_vec
+create_and_print_vec = function(n = 10, min = 1, max = 10)
+{
+vec_3 <- sample(min:max, n, replace= TRUE)
+for(i in 1:n)
+{
+print(paste0("The element at index ", i, " is ", vec_3[[i]]))
+}}
+create_and_print_vec(5)
+create_and_print_vec = function(n = 4, min = 1, max = 10)
+{
+vec_3 <- sample(min:max, n, replace= TRUE)
+for(i in 1:n)
+{
+print(paste0("The element at index ", i, " is ", vec_3[[i]]))
+}}
+create_and_print_vec(5)
+create_and_print_vec(5, min= 100, max=2000)
+create_and_print_vec = function(n, min = 1, max = 10)
+{
+vec_3 <- sample(min:max, n, replace= TRUE)
+for(i in 1:n)
+{
+print(paste0("The element at index ", i, " is ", vec_3[[i]]))
+}}
+create_and_print_vec(5)
+here(catrate.csv)
+here()
+read.csv(here("data", catrate.csv))
+read.csv(here("data", "catrate.csv"))
+read.csv(here("data", "delomys.csv"))
+read.csv(here("data", "rope.csv"))
+here("catrate.csv")
+dat_catrate <- data.frame(read.csv(here("catrate.csv")))
+dat_catrate <- data.frame(read.csv(here("data", "catrate.csv")))
+dat_catrate
+hist(read.csv(here("data", main= "Kaitlyn's Pond Catrate histogram", x= "pond", y= "success"))) )
+hist(read.csv(here("data", main= "Kaitlyn's Pond Catrate histogram", x= "pond", y= "success")))
+hist("dat_catrate", main= "Kaitlyn's Pond Catrate histogram", x= "pond", y= "success")))
+hist("dat_catrate", main= "Kaitlyn's Pond Catrate histogram", x= "pond", y= "success")
+hist( x= "pond", "dat_catrate", main= "Kaitlyn's Pond Catrate histogram")
+hist(dat_catrate$pond, "dat_catrate", main= "Kaitlyn's Pond Catrate histogram")
+hist(dat_catrate$pond, main= "Kaitlyn's Pond Catrate histogram")
+hist(dat_catrate$cat.rate, main= "Kaitlyn's Pond Catrate histogram")
+hist(dat_catrate$cat.rate, xlab= cat rate, main= "Kaitlyn's Pond Catrate histogram")
+hist(dat_catrate$cat.rate, xlab = "cat rate", main= "Kaitlyn's Pond Catrate histogram")
+hist(dat_catrate$cat.rate, xlab = "Cat Rate", main= "Kaitlyn's Pond Catrate histogram")
+create_and_print_vec = function(n, min = 1, max = 10)
+{
+vec_3 <- sample(min:max, n, replace= TRUE)
+for(i in 1:n)
+{
+print(paste0("The element at index ", i, " is ", vec_3[[i]]))
+}}
+create_and_print_vec(5)
+n= 17
+vec_1 <- sample(10, n, replace = TRUE)
+for(i in 1:n)
+{
+print(paste0("The element of vec_1 at index ", i, " is: ", vec_1[[i]]))
+}
+n = 5
+for(i in 1:n)
+{
+print(paste0("This is a loop iteration: ", i))
+}
+for (i in 1:10)
+{
+print(paste0("This is a loop iteration: ", i))
+}
+title: "R Markdown Documents - Part 1"
+title: "R Markdown Documents - Part 1"
+title: "R Markdown Documents-Part 1"
+plot(cars)
+title: "R Markdown Documents - Part 1"
+title: "R Markdown Documents - Part I"
+#Introduction
+Hi world, my name is **Kaitlyn Valentinetti**
+#Concepts List
+1. Fundamentals of R
+#Course list
+* Tropical Ecology
+#Introduction
+Hi world, my name is **Kaitlyn Valentinetti**
+title: "R Markdown Documents-Part 1"
+#Introduction
+Hi world, my name is **Kaitlyn Valentinetti**
+```{r}
+```{r}
+---
+title: "R Markdown Documents-Part 1"
+* Tropical Ecology
+render("RNotebook.Rmd", output_format = "html_document")
+render("RNotebook.Rmd", output_format = "html_document")
+#Introduction
+Hi world, my name is **Kaitlyn Valentinetti**
+title: "R Markdown Documents-Part 1"
+#Introduction
+Hi world, my name is **Kaitlyn Valentinetti**
+#Concepts List
+1. Fundamentals of R
+#Course list
+* Tropical Ecology
+---
+title: "R Markdown Documents - Part 1"
+install.packages("bird.sta.csv")
+read.csv(here("bird.sta.csv"))
+read.csv(here("bird.sta.csv"))
+require(bird.sta.csv)
+read.csv(here("data", bird.sta.csv"))
+read.csv(here("data", bird.sta.csv"))
+read.csv(here("data", "bird.sta.csv"))
+install.packages("bird.sta.csv")
+read.csv(here("data", "bird.sta.csv"))
+install.packages("bird.sta.csv")
+read.csv(here("data", "bird.sta.csv"))
+install.packages("here")
+read.csv(here("data", "bird.sta.csv"))
+read.csv(here("data", "bird.sta.csv"))
+install.packages("bird.sta.csv")
+require("bird.sta.csv")
+read.csv(here("data", "bird.sta.csv"))
+require(here)
+read.csv(here("data", "bird.sta.csv"))
+dat_bird <- data.frame(read.csv(here("data", "bird.sta.csv")))
+read.csv(here("data", "bird.sta.csv"))
+dat_bird <- data.frame(read.csv(here("data", "bird.sta.csv")))
+hist(main= "Histogram of HAWO", x=HAWO)
+hist(main= "Histogram of HAWo", x="HAWO")
+require("birds_metadata.pdf")
+read.csv(here("birds_metadata.pdf"))
+read.csv(here("data", "hab.sta.csv"))
+dat_habitat <- data.frame(read.csv(here("data", "hab.sta.csv")))
+name(dat_habitat)
+require(name)
+pairs(dat_habitat)
+pairs("dat_habitat")
+hist(dat_habitat$CBCH)
+hist("dat_habitat$CBCH")
+hist("dat_bird$CBCH")
+hist(dat_bird$CBCH)
+pairs(data_bird)
+pairs(dat_bird)
+pairs(dat_bird$AMCR)
+pairs(dat_bird[, c("BHGR", "CBCH", "OCWA")])
+install.packages("psych")
+require("psych")
+"yes"
+require("psych")
+require(here)
+require("psych")
+install.packages(here)
+install.packages("here")
+install.packages("here")
+install.packages("here")
+install.packages("psych")
+require("psych")
+require(here)
+require("psych")
+pairs.panels(iris)
+here(iris)
+pairs.panels(iris)
+"no"
+install.packages("psych")
+install.packages(psych)
+install.packages("psych")
+require("psych")
+require("psych")
+pairs.panels(iris)
+read.csv(here("data", "bird.sta.csv"))
+dat_bird <- data.frame(read.csv(here("data", "bird.sta.csv")))
+read.csv(here("data", "hab.sta.csv"))
+dat_habitat <- data.frame(read.csv(here("data", "hab.sta.csv")))
+head(dat_bird)
+dat_all <- data.frame(merge(dat_bird, dat_habitat, by=c("basin", "sub", "sta")))
+dat_all
+plot(ba.tot ~ elev, data = dat_all)
+sample(dat_all$CEWA, 20)
+cewa_present_absent <- as.numeric(dat_all$CEWA > 1)
+cewa_present_absent
+plot(x = dat_all$elev, y = cewa_present_absent)
+plot(x = dat_all$elev, y = cewa_present_absent)
+plot(x = dat_all$elev, y = cewa_present_absent)
+curve(logistic_midpoint_slope(x, midpoint = 400, slope = 0.1), add = TRUE)
+plot(x = dat_all$elev, y = cewa_present_absent)
+plot(x = dat_all$elev, y = cewa_present_absent)
+curve(logistic_midpoint_slope(x, midpoint = 400, slope = 0.1), add = TRUE)
+get_logistic_param_a = function(slope, midpoint)
+{
+b = slope / 4
+return (-midpoint * (slope / 4))
+}
+get_logistic_param_b = function(slope)
+{
+return (slope / 4)
+}
+logistic = function(x, a, b)
+{
+val = exp(a + b * x)
+return(val / (1 + val))
+}
+logistic_midpoint_slope = function(x, midpoint, slope)
+{
+b = get_logistic_param_b(slope)
+a = get_logistic_param_a(slope, midpoint)
+return(logistic(x, a, b))
+}
+plot(x = dat_all$elev, y = cewa_present_absent)
+plot(x = dat_all$elev, y = cewa_present_absent)
+curve(logistic_midpoint_slope(x, midpoint = 400, slope = 0.1), add = TRUE)
+plot(x = dat_all$elev, y = cewa_present_absent)
+curve(logistic_midpoint_slope(x, midpoint = 400, slope = -0.1), add = TRUE)
+plot(x = dat_all$elev, y = cewa_present_absent)
+curve(logistic_midpoint_slope(x, midpoint = 400, slope = -0.005), add = TRUE)
+debugSource("~/Documents/environmental_data/lab/ECo634_lab3.R")
+install.packages("psych")
+pairs.panels("dat_all")
+pairs.panels("dat_all")
+install.packages("psych")
+pairs.panels("dat_all")
+require("psych")
+pairs.panels(iris)
+pairs.panels("dat_all")
+dat_all <- data.frame(merge(dat_bird, dat_habitat, by=c("basin", "sub", "sta")))
+dat_bird <- data.frame(read.csv(here("data", "bird.sta.csv")))
+require(here)
+dat_bird <- data.frame(read.csv(here("data", "bird.sta.csv")))
+read.csv(here("data", "hab.sta.csv"))
+dat_habitat <- data.frame(read.csv(here("data", "hab.sta.csv")))
+head(dat_bird)
+dat_all <- data.frame(merge(dat_bird, dat_habitat, by=c("basin", "sub", "sta")))
+dat_all
+pairs.panels("dat_all")
+pairs.panels("dat_all"[, c("slope, "aspect", "elevation", "basal")])
+pairs.panels("dat_all"[, c("slope, "aspect", "elev", "ba.tot")])
+plot(ba.tot ~ elev, data = dat_all)
+pairs.panels("dat_all"[, c("slope, "aspect", "elev", "ba.tot")])
+pairs.panels("dat_all"[, c("slope", "aspect", "elev", "ba.tot")])
+pairs.panels("dat_all"[, c("slope", "aspect", "elev", "ba.tot")])
+pairs.panels("dat_all"[, c("slope", "aspect", "elev", "ba.tot")])
+pairs.panels("dat_all"[ c("slope", "aspect", "elev", "ba.tot")])
+pairs.panels("dat_all"[, c("slope", "aspect", "elev", "ba.tot")])
+pairs.panels(dat_all[, c("slope", "aspect", "elev", "ba.tot")])
+pisi_present_absent <- as.numeric(dat_all$PIWO > 1)
+pisi_present_absent
+pisi_present_absent <- as.numeric(dat_all$PISI > 1)
+pisi_present_absent
+plot(x = dat_all$ba.tot, y=pisi_present_absent)
+moqu_present_absent <- as.numeric(dat_all$MOQU > 1)
+moqu_present_absent
+plot(x = dat_all$ba.tot, y= moqu_present_absent)
+recr_present_absent <- as.numeric(dat_all$RECR > 1)
+recr_present_absent
+plot(x = dat_all$ba.tot, y= recr_present_absent)
+recr_present_absent <- as.numeric(dat_all$SOSP > 1)
+recr_present_absent
+plot(x = dat_all$ba.tot, y= recr_present_absent)
+recr_present_absent <- as.numeric(dat_all$MODO > 1)
+recr_present_absent
+plot(x = dat_all$ba.tot, y= recr_present_absent)
+recr_present_absent <- as.numeric(dat_all$MODO > 1)
+recr_present_absent
+recr_present_absent <- as.numeric(dat_all$CBCH > 1)
+recr_present_absent
+plot(x = dat_all$ba.tot, y= recr_present_absent)
+plot(x = dat_all$ba.tot, y = recr_present_absent)
+curve(logistic_midpoint_slope(x, midpoint = 400, slope = -0.1), add = TRUE)
+get_logistic_param_a = function(slope, midpoint)
+{
+b = slope / 4
+return (-midpoint * (slope / 4))
+get_logistic_param_b = function(slope)
+{
+return (slope / 4)
+}
+logistic = function(x, a, b)
+{
+val = exp(a + b * x)
+return(val / (1 + val))
+}
+logistic_midpoint_slope = function(x, midpoint, slope)
+{
+b = get_logistic_param_b(slope)
+a = get_logistic_param_a(slope, midpoint)
+return(logistic(x, a, b))
+}
+plot(x = dat_all$ba.tot, y = recr_present_absent)
+curve(logistic_midpoint_slope(x, midpoint = 400, slope = -0.1), add = TRUE)
+plot(x = dat_all$ba.tot, y= recr_present_absent)
+curve(logistic_midpoint_slope(x, midpoint = 400, slope = -0.005), add = TRUE)
+curve(logistic_midpoint_slope(x, midpoint = 400, slope = -0.005), add = TRUE)
+recr_present_absent <- as.numeric(dat_all$CBCH > 1)
+install.packages("psych")
+no
+install.packages("psych")
+no
+install.packages("psych")
+require("psych")
+require(here)
+install.packages("here")
+install.packages("here")
+read.csv(here("data", "bird.sta.csv"))
+dat_bird <- data.frame(read.csv(here("data", "bird.sta.csv")))
+read.csv(here("data", "hab.sta.csv"))
+dat_habitat <- data.frame(read.csv(here("data", "hab.sta.csv")))
+head(dat_bird)
+dat_all <- data.frame(merge(dat_bird, dat_habitat, by=c("basin", "sub", "sta")))
+dat_all
+# Function to calculate the logistic parameter a given the slope and midpoint
+get_logistic_param_a = function(slope, midpoint)
+{
+b = slope / 4
+return (-midpoint * (slope / 4))
+}
+# Function to calculate the logistic parameter b given the slope
+get_logistic_param_b = function(slope)
+{
+return (slope / 4)
+}
+# Calculate the value of the logistic function at x, given the parameters a and b.
+logistic = function(x, a, b)
+{
+val = exp(a + b * x)
+return(val / (1 + val))
+}
+# Calculate the value of the logistic function at x, given a slope and midpoint.
+logistic_midpoint_slope = function(x, midpoint, slope)
+{
+b = get_logistic_param_b(slope)
+a = get_logistic_param_a(slope, midpoint)
+return(logistic(x, a, b))
+}
+recr_present_absent <- as.numeric(dat_all$CBCH > 1)
+recr_present_absent
+plot(x = dat_all$ba.tot, y= recr_present_absent)
+curve(logistic_midpoint_slope(x, midpoint = 400, slope = -0.005), add = TRUE)
+curve(logistic_midpoint_slope(x, midpoint = 400, slope = 0.1), add = TRUE)
+curve(logistic_midpoint_slope(x, midpoint = 100, slope = 0.1), add = TRUE)
+plot(x = dat_all$ba.tot, y= recr_present_absent)
+curve(logistic_midpoint_slope(x, midpoint = 100, slope = 0.1), add = TRUE)
+plot(main = "Chestnut-bk Chickadee", x = dat_all$ba.tot, y= recr_present_absent)
+plot(main = "Basal Area Impact on Chestnut-bk Chickadee Occurrence", x = dat_all$ba.tot, y= recr_present_absent)
+curve(logistic_midpoint_slope(x, midpoint = 100, slope = 0.1), add = TRUE)
+plot(main = "Basal Area Impact on Chestnut-bk Chickadee Occurrence", x = dat_all$ba.tot, y= recr_present_absent, xlab= "Total Basal Area", ylab= "Chickadee Occurrence")
+curve(logistic_midpoint_slope(x, midpoint = 100, slope = 0.1), add = TRUE)
+install.packages("psych")
+no

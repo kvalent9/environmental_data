@@ -1,0 +1,27 @@
+{
+    "id": "DC72C62A",
+    "path": "~/Documents/environmental_data/lab_12.R",
+    "project_path": "lab_12.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": true,
+    "created": 1670630333656.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "525,0",
+        "scrollLine": "511"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1670706248,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1670706265530,
+    "read_only": false,
+    "read_only_alternatives": []
+}

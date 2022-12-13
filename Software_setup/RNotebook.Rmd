@@ -1,0 +1,34 @@
+---
+title: "R Markdown Documents-Part 1"
+subtitle: "Analysis of Environmental Data"
+author: "Kaitlyn Valentinetti"
+
+output: 
+  html_document:  
+    toc_float: true
+    toc: true
+    collapsed: false
+    smooth_scroll: true
+---
+
+# Introduction
+
+Hi world, my name is **Kaitlyn Valentinetti**.
+My major is *Integrative Animal Behavior*.
+
+
+# Concepts List
+
+1. Fundamentals of R
+2. R coding language
+3. Environmental data analysis
+
+
+# Course list
+
+* Tropical Ecology
+* Wildlife Populations and Dynamics
+* Introduction to GIS
+
+
+
