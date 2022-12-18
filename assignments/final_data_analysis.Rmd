@@ -1,0 +1,117 @@
+---
+title: "Final Project Part 2"
+author: "Kaitlyn Valentinetti"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Data Analysis {.tabset .tabset-pills}
+
+## Data Exploration
+```{r}
+require(here)
+delomys <- read.csv(here("data", "delomys.csv"))
+```
+
+```{r fig.height=6}
+plot(body_length ~ body_mass, data = delomys, main = "Scatterplot of Delomy body mass and body length")
+```
+
+```{r fig.width=10}
+hist(delomys$body_mass, main = "Histogram of Delomys body mass")
+hist(delomys$body_length, main = "Histogram of Delomys body length")
+```
+
+```{r fig.aspect=10}
+boxplot(delomys$body_mass ~ delomys$binomial,
+        main = "Delomys body mass conditioned on species", xlab = "Species",
+        ylab = "Body mass",
+        names = c("Delomys dorsalis", "Delomys sublineatus"))
+
+boxplot(delomys$body_mass ~ delomys$sex,
+        main = "Delomys body mass conditioned on sex", xlab = "Sex",
+        ylab = "Body mass",
+        names = c("Female", "Male"))
+
+boxplot(delomys$body_mass ~ delomys$sex:delomys$binomial,
+        names = c("Female\ndorsalis", "Male\ndorsalis", "Female\nsublineatus", "Male\nsublineatus"), 
+        main = "Delomys body mass conditioned on species and sex",
+        xlab = "Sex and Species",
+        ylab = "Body mass")
+```
+
+## Questions
+
+Question 1:
+There is a positive curvilinear relationship between body mass and length. At first the relationship is increasing linearly for body mass and length, and then it hits a plateau and only body mass continues to increase and length stays relatively constant.
+
+Question 2:
+The shape of the histograms for body mass and body length both appear to be normally distributed because they resemble a bell shape. It's important to know if the data are normally distributed because we need to know this to decide if nonparametric or parametric tests are more suitable. 
+
+Question 3: 
+Though the histograms appear to be normally distributed in shape, the Shapiro normality test values for both body mass and length tell us that they are not normally distributed because their p-values are less than 0.05. Because the p-value is less than 0.05 in both cases, we reject the null hypothesis that the data is not significantly different from a normal distribution. 
+
+Question 4:
+After looking at the three conditional boxplots, there is graphical evidence to demonstrate there are difference in body mass based on both species and sex. In terms of the graphical analysis based on species, Delomys dorsalis have a greater body mass. In terms of sex, there is a very slight increase in body mass in males compared to females demonstrated in both species. 
+
+```{r}
+fit1 <- lm(body_length ~ body_mass, data = delomys)
+fit2 <- lm(body_mass ~ sex, data = delomys)
+fit3 <- lm(body_mass ~ binomial, data = delomys)
+fit4 <- lm(body_mass ~ sex + binomial, data = delomys)
+fit5 <- lm(body_mass ~ sex * binomial, data = delomys)
+
+hist(residuals(fit1), main = "Model fit 1", xlab = "residuals")
+hist(residuals(fit2), main = "Model fit 2", xlab = "residuals")
+hist(residuals(fit3), main = "Model fit 3", xlab = "residuals")
+hist(residuals(fit4), main = "Model fit 4", xlab = "residuals")
+hist(residuals(fit5), main = "Model fit 5", xlab = "residuals")
+```
+
+Question 5: 
+Based on the graphical analyses, model fits 2-5 appear to be normally distributed, but the Shapiro normality test negates the graphical evidence as each fit has a p-value less than 0.05. Since the p-value is less than 0.05, we can conclude residuals are not normally distributed in any of the models.
+
+Question 6: 
+No, the violations of normality are not equally sever because the p-value for each model is different. Model fit 2 has the least severe violation.
+
+Question 7: 
+The magnitude of the mass/length relationship is 0.551. 
+
+Question 8: 
+The expected body length of an animal that weighs 100g is 163.67.
+
+Question 9: 
+The expected body length of an animal that weighs 0g is 76.12. 
+
+Question 10: 
+The base level for sex is female. 
+
+Question 11:
+The base level for binomial is Delomys dorsalis. 
+
+Question 12:
+Males are heavier than females. We know this because the base case (female) body mass is 42.71 and the slope is 2.78. Therefore, the male mass is 2.78g more than the base level (female) mass. 
+
+Question 13:
+Delomys dorsalis is the heavier species. We know this because the base case (dorsalis) is 46.75 and the slope is -7.68. Therefore, the sublineatus mass is 7.68g less than the base level (dorsalis) mass. 
+
+Question 14:
+Sex and species are significant predictors for body mass because their p-values are less than 0.05.
+
+Question 15:
+Since the p-value is 0.9504424, there is no significant interaction between sex and binomial (species). 
+
+Question 16:
+The significance level of sex and species do not vary by much among the different models as the p-values are all similar. 
+
+Question 17: 
+Models 4 and 5 have the lowest AIC values. Model 4's value is 12896.73 and model 5's value is 12898.72. 
+
+Question 18: 
+Out of the two models with the lowest AIC scores, I would select model fit 4 because the interaction between sex and binomial (species) is not significant, so it would complicate the model and be harder to understand if we included its interaction as model 5 does. Though model 4 may be simpler, it will be easier to communicate.
+
+

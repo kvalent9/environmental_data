@@ -1,0 +1,171 @@
+---
+title: "Final Project Part 1"
+author: "Kaitlyn Valentinetti"
+date: "2022-12-16"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# R Reference Guide {.tabset .tabset-pills}
+
+## Loading Data and Packages
+
+The library() and require() functions can be used to retrieve data packages 
+```{r}
+library(palmerpenguins)
+require(here)
+```
+
+The functions here() and read.csv() locate data files from a specific pathway in your PC. The data.frame() function creates data frames from packages.
+```{r}
+ginkgo <- data.frame(read.csv(here("docs", "ginkgo.csv")))
+```
+
+## Data structure
+
+Create a vector of numbers:
+```{r}
+num_vec  = c(1, 4, 8, 9, 13)
+```
+
+Create a vector of characters:
+```{r}
+char_vec = c("a", "fish", "data is cool")
+```
+
+Typing the name of the vector into the console prints the contents or you can use the print() function
+```{r}
+num_vec
+print(char_vec)
+```
+
+To calculate the number of items in a vector, use the length() function
+```{r}
+length(char_vec)
+```
+
+To arrange a given set of values into a matrix layout, use the matrix() function
+```{r}
+matrix(ginkgo)
+```
+
+The data.frame() function creates data frames from packages.
+```{r}
+ginkgo <- data.frame(read.csv(here("docs", "ginkgo.csv")))
+```
+
+To calculate the total number of rows or columns.
+```{r}
+nrow(ginkgo)
+ncol(ginkgo)
+```
+
+To retrieve or set both the row and column dimensions of an object.
+```{r}
+dim(ginkgo)
+```
+
+## Subsetting 
+
+To subset a data frame by name of a column
+```{r}
+ginkgo_site <- ginkgo$site_id
+adelie <- subset(penguins, species == "adelie")
+```
+
+To subset by position [row,column]
+```{r}
+ginkgo[1,]
+ginkgo[2,3]
+ginkgo[,3]
+```
+
+## Numerical Data Exploration
+
+To produce a summary format of your data
+```{r}
+summary(penguins)
+```
+
+To find the average and the standard deviation of a parameter in your data (na.rm argument tells R to remove missing values)
+```{r}
+mean(penguins$flipper_length_mm, na.rm = TRUE)
+sd(penguins$flipper_length_mm, na.rm = TRUE)
+```
+
+## Graphical Data Exploration
+
+To create a scatterplot of two parameters in your data
+("cex" changes point size, "pch" changes point shape)
+```{r}
+plot(x = ginkgo$max_width, y= ginkgo$max_depth, xlab = "Max width (mm)", ylab = "Max depth (mm)", col = "purple", pch = 2, cex = 0.3, main = "Ginkgo Leaf Scatterplot", xlim = c(0,100), ylim = c(0,120))
+```
+
+To create a histogram (breaks argument tells R the number of bins - 1 to separate data into)
+```{r}
+hist(x = penguins$flipper_length_mm, breaks = 6)
+```
+
+To create a simple boxplot
+```{r}
+boxplot(x = ginkgo$petiole_length, ylab = "Petiole length", main = "Petiole Length Boxplot")
+```
+
+To create a conditional boxplot
+```{r}
+boxplot(ginkgo$notch_depth ~ ginkgo$seeds_present,
+        main = "Notch Depth Conditioned On Seeds Present", xlab = "Seed Presence",
+        ylab = "Notch Depth",
+        names = c("Presence", "Absence"))
+
+```
+
+To create a multi-panel figure, you can use par(mfrow = c())
+```{r}
+par(mfrow = c(2,2))
+
+hist(x = ginkgo$max_width, main = "Ginkgo Leaf Max Depth Hist", xlab = "Max depth (mm)", ylab = "Frequency")
+
+hist(x = ginkgo$max_depth, main = "Ginkgo Leaf Max Width Hist", xlab = "Max width (mm)", ylab = "Frequency")
+
+hist(x = ginkgo$notch_depth, main = "Ginkgo Leaf Notch Depth", xlab = "Notch depth", ylab = "Frequency")
+
+hist(x = ginkgo$petiole_length, main = "Ginkgo Leaf Petiole Length", xlab = "Petiole length", ylab = "Frequency")
+```
+
+## Distribution Functions
+
+Returns the value of the probability density function (pdf) of a normal distribution
+```{r}
+dnorm(0)
+```
+
+Returns the value of the cumulative density function (cdf) of a normal distribution
+```{r}
+pnorm(1)
+```
+
+The value of the "p^th" quantile of a normal distribution
+```{r}
+qnorm(p = 0.85)
+```
+
+Value of the probability density function (pdf) of a binomial distribution
+```{r}
+dbinom(x = 10, size = 100, prob = 0.2)
+```
+
+Value of the cumulative distribution function (cdf) of a binomial distribution
+```{r}
+pbinom( q = 10, size = 100, prob = 0.2)
+```
+
+Find the "p^th" quantile of a binomial distribution
+```{r}
+qbinom(p = .10, size = 100, prob = 0.2)
+```

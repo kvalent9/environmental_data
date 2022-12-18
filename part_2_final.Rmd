@@ -1,0 +1,45 @@
+---
+title: "Final Project Part 2"
+author: "Kaitlyn Valentinetti"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r fig.height=6}
+plot(body_length ~ body_mass, data = delomys, main = "Scatterplot of Delomy body mass and body length")
+```
+
+```{r fig.width=10}
+hist(delomys$body_mass, main = "Histogram of Delomys body mass")
+hist(delomys$body_length, main = "Histogram of Delomys body length")
+
+head(delomys$binomial)
+tail(delomys$binomial)
+```
+
+```{r fig.aspect=10}
+boxplot(delomys$body_mass ~ delomys$binomial,
+        main = "Delomys body mass conditioned on species", xlab = "Species",
+        ylab = "Body mass",
+        names = c("Delomys dorsalis", "Delomys sublineatus"))
+
+boxplot(delomys$body_mass ~ delomys$sex,
+        main = "Delomys body mass conditioned on sex", xlab = "Sex",
+        ylab = "Body mass",
+        names = c("Female", "Male"))
+
+boxplot(delomys$body_mass ~ delomys$sex:delomys$binomial,
+        names = c("Female\ndorsalis", "Male\ndorsalis", "Female\nsublineatus", "Male\nsublineatus"), 
+        main = "Delomys body mass conditioned on species and sex",
+        xlab = "Sex and Species",
+        ylab = "Body mass")
+```
+
+## Questions
+
+Question 1: Qualitatively describe the relationship between body mass and length.
+Does the relationship seem linear, curved, nonexistent? 

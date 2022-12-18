@@ -1,0 +1,2 @@
+"0",""
+"0","hist(x = ginkgo$max_depth, main = ""Ginkgo Leaf Max Width Hist"", xlab = ""Max width (mm)"", ylab = ""Frequency"")"

@@ -1,0 +1,2 @@
+"0",""
+"0","hist(x = ginkgo$petiole_length, main = ""Ginkgo Leaf Petiole Length"", xlab = ""Petiole length"", ylab = ""Frequency"")"

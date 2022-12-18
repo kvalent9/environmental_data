@@ -1,0 +1,2 @@
+"0",""
+"0","hist(x = ginkgo$notch_depth, main = ""Ginkgo Leaf Notch Depth"", xlab = ""Notch depth"", ylab = ""Frequency"")"

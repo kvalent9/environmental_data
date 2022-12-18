@@ -1,0 +1,1 @@
+"0","ginkgo <- data.frame(read.csv(here(""docs"", ""ginkgo.csv"")))"

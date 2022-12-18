@@ -1,0 +1,5 @@
+"0","boxplot(ginkgo$notch_depth ~ ginkgo$seeds_present,"
+"0","        main = ""Notch Depth Conditioned On Seeds Present"", xlab = ""Seed Presence"","
+"0","        ylab = ""Notch Depth"","
+"0","        names = c(""Presence"", ""Absence""))"
+"0",""

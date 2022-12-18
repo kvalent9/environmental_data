@@ -1,0 +1,1 @@
+"0","hist(x = penguins$flipper_length_mm, breaks = 6)"

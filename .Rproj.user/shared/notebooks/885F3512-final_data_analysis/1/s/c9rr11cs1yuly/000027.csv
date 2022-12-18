@@ -1,0 +1,7 @@
+"0","fit1 <- lm(body_length ~ body_mass, data = delomys)"
+"0","fit2 <- lm(body_mass ~ sex, data = delomys)"
+"0","fit3 <- lm(body_mass ~ binomial, data = delomys)"
+"0","fit4 <- lm(body_mass ~ sex + binomial, data = delomys)"
+"0","fit5 <- lm(body_mass ~ sex * binomial, data = delomys)"
+"0",""
+"0","hist(residuals(fit1), main = ""Model fit 1"", xlab = ""residuals"")"
